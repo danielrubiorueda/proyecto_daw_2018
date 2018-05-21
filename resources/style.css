@@ -1,0 +1,39 @@
+@font-face {
+    font-family: roboto;
+    src: url(roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: shadows;
+    src: url(shadowsintolight/ShadowsIntoLight.ttf);
+}
+#logo img{
+    width: 50px;
+}
+#logo span{
+    font-family: 'shadows';
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+#navbar a, nav i, #logo span {
+    color: #ff322e;
+}
+#navbar a:hover {
+    color: #262626;
+}
+#navbar button {
+    background-color: #bbd43b;
+}
+
+.jumbotron {
+    background-image: url(jumbo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.form-control {
+    flex: 1;
+    margin-right: 5px;
+}
+.form-inline {
+    flex-flow: row;
+}
